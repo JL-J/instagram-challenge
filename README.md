@@ -1,40 +1,32 @@
 Instagram Challenge
 ===================
 
-## Instructions
+This project replicates Instagram.
 
-* Challenge time: one weekend
-* Feel free to use Google, your notes, books, etc., but work on your own
-* If you refer to the solution of another coach or student, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9am Monday morning
+## Getting started ##
+- Clone this repo:
+  `git clone git@github.com:JL-J/instagram-challenge.git`
+- From the command line:
+  ```
+  cd instagram-challenge
+  bundle install
+  rails: db:migrate
+  rails server
+  ```
+- Visit localhost:3000 in your browser
 
-## Task
+## Testing ##
+Testing is done in rspec and capybara. To run the tests from the command line: `rspec`
 
-Build Instagram: Simple huh!
+## My approach ##
+Having mostly written programs using vanilla ruby and only a few gems, in this program I wanted to challenge myself by using new and unfamiliar technologies wherever possible. I have often shied away from this in previous projects as I have lacked the confidence to implement something new. I have therefore maximised their usage, and chosen gems based on recommendations and research.
 
-Your challenge is to build Instagram using Rails. You'll need **users** who can post **pictures**, write **comments** on pictures and **like** a picture. Style it like Instagram's website (or more awesome).
+I have also created a Wiki to document my learning.
 
-Bonus if you can add filters!
-
-## How to start
-
-1. Produce some stories, break them down into tasks, and estimate
-2. Fork this repo, clone, etc
-3. Initialize a new rails project
-
-Remember to proceed in small steps! Getting confused? Make the steps even smaller.
-
-## Code Quality
-
-For linting, you can use the `.rubocop.yml` in this repository (or your own!).
-You'll need these gems:
-
-```ruby
-gem "rubocop", "0.48.1"
-gem "rubocop-rails"
-```
-
-You can also lint Javascript, CSS, and ERB — feel free to research this. These
-will help you to train yourself to produce cleaner code — and will often alert
-you to mistakes or mishaps!
+## Technologies used ##
+- Ruby on Rails
+- ActiveRecord
+- New: _Active Storage_
+- Rspec and Capybara
+- New: _Simple_form_
+- New: _Bootstrap_
