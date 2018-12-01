@@ -1,0 +1,9 @@
+!!!
+%html(lang="en")
+  %body
+    %h1 Instagram
+    -@posts.each do |post|
+      =image_tag post.image
+      =post.caption
+
+    = link_to "New Post", new_post_path

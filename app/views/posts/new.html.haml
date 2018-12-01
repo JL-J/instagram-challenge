@@ -1,0 +1,4 @@
+= simple_form_for(@post, html: { class: 'form-inline' }) do |form|
+  = form.input :image
+  = form.input :caption, required: false
+  = form.button :submit
