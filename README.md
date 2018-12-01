@@ -26,7 +26,7 @@ I have also created a Wiki to document my learning.
 ## Technologies used ##
 - Ruby on Rails
 - ActiveRecord
-- New: _Active Storage_
+- _New: Active Storage_
 - Rspec and Capybara
-- New: _Simple_form_
-- New: _Bootstrap_
+- _New: Simple_form_
+- _New: Bootstrap_

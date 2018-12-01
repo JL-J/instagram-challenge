@@ -1,4 +1,8 @@
-= simple_form_for(@post, html: { class: 'form-inline' }) do |form|
-  = form.input :image
-  = form.input :caption, required: false
-  = form.button :submit
+!!!
+%html(lang="en")
+  %body
+    %h2 New Post
+    = simple_form_for(@post, html: { class: 'form-group' }) do |form|
+      = form.input :image, required: true
+      = form.input :caption, required: true
+      = form.button :submit

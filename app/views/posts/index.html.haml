@@ -2,8 +2,11 @@
 %html(lang="en")
   %body
     %h1 Instagram
-    -@posts.each do |post|
-      =image_tag post.image
-      =post.caption
+    .posts-wrapper
+      -@posts.each do |post|
+        %ul.post
+          =image_tag post.image
+          .caption
+            =post.caption
 
-    = link_to "New Post", new_post_path
+    %p.btn-group= link_to "New Post", new_post_path
