@@ -16,7 +16,7 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'rubocop', '~> 0.60.0', require: false
-gem "rubocop-rails"
+gem "rubocop-rails_config"
 gem 'sass-rails', '~> 5.0'
 gem 'simple_form'
 # Use Uglifier as compressor for JavaScript assets
