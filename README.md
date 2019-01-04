@@ -19,7 +19,7 @@ This project replicates Instagram.
 Testing is done in rspec and capybara. To run the tests from the command line: `rspec`
 
 ## My approach ##
-Having mostly written programs using vanilla ruby and only a few gems, in this program I wanted to challenge myself by using new and unfamiliar technologies wherever possible. I have often shied away from this in previous projects as I have lacked the confidence to implement something new. I have therefore maximised their usage, and chosen gems based on recommendations and research.
+Having mostly written programs using vanilla ruby and only a few gems, in this program I wanted to challenge myself by using new and unfamiliar technologies wherever possible. I have therefore maximised their usage, and chosen gems based on recommendations and research.
 
 I have also created a Wiki to document my learning.
 
@@ -29,4 +29,4 @@ I have also created a Wiki to document my learning.
 - _New: Active Storage_
 - Rspec and Capybara
 - _New: Simple_form_
-- _New: Bootstrap_
+- _New: Bootstrap with YAML_
